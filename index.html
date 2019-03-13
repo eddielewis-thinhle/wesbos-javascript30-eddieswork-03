@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fun with CSS & JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+  </head>
+
+  <body>
+    <h2>Update CSS Variables with <span class="hl">JS</span></h2>
+      <div class="controls">
+        <label for="spacing">Spacing:</label>
+        <input type="range" name="spacing" min="10" max="50" value="10" data-sizing="px">
+
+        <label for="blur">Blur:</label>
+        <input type="range" name="blur" min="0" max="20" value="10" data-sizing="px">
+
+        <label for="base">Base Color:</label>
+        <input type="color" name="base" value="#ffc600">
+      </div>
+      <div id="container">
+        <img src="/img/NamSan.jpg" alt="Nam-San Tower Korea">
+      </div>
+  </body>
+  <script src="script.js"></script>
+
+</html>
